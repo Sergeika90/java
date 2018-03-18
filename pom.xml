@@ -1,0 +1,55 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.simbirsoft.itplace</groupId>
+  <artifactId>ResumeGenerator</artifactId>
+  <packaging>jar</packaging>
+  <version>1.0-SNAPSHOT</version>
+  <name>kapitonov</name>
+  <url>http://maven.apache.org</url>
+  <properties>
+    <java.version>1.8</java.version>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.plugin.version>3.5.1</maven.compiler.plugin.version>
+    <maven.war.plugin.version>3.0.0</maven.war.plugin.version>
+    <maven.resources.plugin.version>3.0.0</maven.resources.plugin.version>
+  </properties>
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>log4j</groupId>
+      <artifactId>log4j</artifactId>
+      <version>1.2.16</version>
+    </dependency>
+  </dependencies>
+  <build>
+    <outputDirectory>target/classes</outputDirectory>
+    <finalName>ResumeGenerator</finalName>
+    <sourceDirectory>D:\Program Files\Java\jdk1.8.0_161</sourceDirectory>
+    <resources>
+        <resource>
+            <directory>C:\Users\User\Desktop\курсы\java\ResumeGenerator</directory>
+            <includes>
+                <include>*.properties</include>
+            </includes>
+        </resource>
+    </resources>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>2.0.2</version>
+        <configuration>
+            <source>1.6</source>
+            <target>1.6</target>
+            <encoding>UTF-8</encoding>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+</project>
