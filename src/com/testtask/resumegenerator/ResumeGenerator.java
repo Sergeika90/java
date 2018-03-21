@@ -17,7 +17,7 @@ import java.util.Map;
  */
 public class ResumeGenerator {
     /** Путь к файлу со сгенерированным резюме */
-    public static final String RESUME_FILE_PATH= "C:\\Users\\User\\Downloads\\ResumeGenerator\\result\\resultResume.html";
+    public static final String RESUME_FILE_PATH= "\\result\\resultResume.html";
 
     public static void main(String[] args) {
         // Получение данных для заполнения
