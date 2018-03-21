@@ -15,7 +15,7 @@ import java.io.BufferedReader;
 public class ResumeDataReaderImpl implements ResumeDataReader {
     /** Путь к файлу с данными для резюме */
     public static final String RESUME_DATA_FILE_PATH =
-            "C:\\Users\\User\\Downloads\\ResumeGenerator\\source\\resumeData.properties";
+            "\\source\\resumeData.properties";
 
     /** Кодировка файла с данными */
     public static final String RESUME_DATA_ENCODING = "utf-8";
