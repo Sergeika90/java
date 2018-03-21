@@ -15,7 +15,7 @@ import java.io.UnsupportedEncodingException;
 public class TemplateReaderImpl implements TemplateReader {
     /** Путь к файлу с данными для резюме */
     public static final String TEMPLATE_FILE_PATH =
-            "C:\\Users\\User\\Downloads\\ResumeGenerator\\source\\template.html";
+            "\\source\\template.html";
 
     /** Кодировка файла с данными */
     public static final String TEMPLATE_FILE_ENCODING = "utf-8";
